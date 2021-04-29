@@ -222,6 +222,7 @@ int deleteLeafNode(Node* head, int key)
 			printf("%d 는 루트야 \n",key);
 			head->left == NULL;
 			} // 삭제할 노드가 root인 경우
+        printf("삭제해떠\n");
 		free(delnode);
 	}
 	else{
